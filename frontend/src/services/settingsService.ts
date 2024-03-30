@@ -19,7 +19,7 @@ export const INITIAL_MODELS = [
 
 export type Model = (typeof INITIAL_MODELS)[number];
 
-export const AGENTS = ["LangchainsAgent", "CodeActAgent"];
+export const AGENTS = ["MonologueAgent", "CodeActAgent", "PlannerAgent"];
 
 export type Agent = (typeof AGENTS)[number];
 

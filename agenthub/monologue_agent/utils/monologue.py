@@ -1,6 +1,6 @@
 
-import agenthub.langchains_agent.utils.json as json
-import agenthub.langchains_agent.utils.prompts as prompts
+import agenthub.monologue_agent.utils.json as json
+import agenthub.monologue_agent.utils.prompts as prompts
 
 class Monologue:
     def __init__(self):
