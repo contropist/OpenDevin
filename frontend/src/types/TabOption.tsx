@@ -1,21 +1,21 @@
 enum TabOption {
-  TERMINAL = "terminal",
   PLANNER = "planner",
   CODE = "code",
   BROWSER = "browser",
+  JUPYTER = "jupyter",
 }
 
 type TabType =
-  | TabOption.TERMINAL
   | TabOption.PLANNER
   | TabOption.CODE
-  | TabOption.BROWSER;
+  | TabOption.BROWSER
+  | TabOption.JUPYTER;
 
 const AllTabs = [
-  TabOption.TERMINAL,
-  TabOption.PLANNER,
   TabOption.CODE,
   TabOption.BROWSER,
+  TabOption.PLANNER,
+  TabOption.JUPYTER,
 ];
 
 export { AllTabs, TabOption, type TabType };
